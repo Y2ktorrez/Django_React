@@ -65,7 +65,7 @@ CKEDITOR_CONFIGS = {
         'autoParagraph': False
     }
 }
-CKAEDITOR_UPLOAD_PATH = "/media/"
+CKEDITOR_UPLOAD_PATH = "/media/"
 
 MIDDLEWARE = [
     #Agregamos corsheaders
