@@ -6,6 +6,11 @@ from django.conf import settings
 
 #Realmente nose porque hace esto.    !!INVESTIGAR MAS!!
 urlpatterns = [
+    #Definimos la ruta de donde va a leer apps(carpeta) blog->urls
+    path('api/blog/', include('apps.blog.urls')),
+    path('api/category/', include('apps.category.urls')),
+
+
     path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

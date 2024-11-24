@@ -38,7 +38,8 @@ DJANGO_APPS = [
 
 #Aqui vamos a poner los modelos que creamos
 PROJECT_APPS = [
-    
+    'apps.blog',
+    'apps.category',
 ]
 
 #Aqui los paquetes que instalamos y vamos a usar
@@ -136,7 +137,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es'
 
-TIME_ZONE = 'UTC-5'
+TIME_ZONE = 'America/Lima'
 
 USE_I18N = True
 
